@@ -106,8 +106,8 @@ const distancesForZip = async (zip) => {
       try {
         return ({
           id: clinic.id,
-          distance: matrix.data.rows[0].elements[index].distance.text,
-          distanceValue: matrix.data.rows[0].elements[index].distance.value,
+          distance: matrix.data.rows[0].elements[index].distance.text, // display distance
+          distanceValue: matrix.data.rows[0].elements[index].distance.value, // distance in meters
           duration: matrix.data.rows[0].elements[index].duration.text,
           inputAddress: clinic.clinicAddress,
           parsedAddress: matrix.data.destination_addresses[index],
