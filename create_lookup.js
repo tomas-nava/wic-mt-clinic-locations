@@ -103,7 +103,6 @@ const distancesForZip = async (zip) => {
         return {};
       }
 
-
       try {
         return ({
           id: clinic.id,
