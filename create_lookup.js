@@ -99,7 +99,7 @@ const distancesForZip = async (zip) => {
         Object.entries(matrix).length === 0 ||
         matrix.data.rows[0].elements[index].status === 'ZERO_RESULTS'
       ) {
-        console.log(`zero results from origin ${matrix.data.origin_addresses[0]}`);
+        console.log(`zero results from origin ${matrix.data?.origin_addresses?.[0]}`);
         return {};
       }
 
