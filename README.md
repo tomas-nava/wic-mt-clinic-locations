@@ -17,7 +17,7 @@ to calculate rough distances to a set of locations from each zip code in the sta
 1. clone this repo
 
     ```bash
-    git clone git@github.com:tomas-nava/laptop-setup.git ~/workspace/
+    git clone git@github.com:tomas-nava/wic-mt-clinic-locations.git
     ```
 1. install packages
 
