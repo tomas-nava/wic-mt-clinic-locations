@@ -5,8 +5,7 @@ import fs from 'fs';
 
 // get the clinics JSON from GitHub
 const clinicsUrl = "https://raw.githubusercontent.com/navapbc/" +
-                   "wic-mt-demo-project-eligibility-screener/" +
-                   "4cb9a3fee1366175a8ea8323924b61f4d308e9d8/app/public/data/clinics.json"
+                   "wic-mt-demo-project-eligibility-screener/main/app/public/data/clinics.json"
 const clinics = await fetch(clinicsUrl).then((response) => response.json())
 
 // add ID numbers to the clinics and output the result
